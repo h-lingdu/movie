@@ -1,0 +1,13 @@
+<!--pages/common/common.wxml-->
+<view class="big_top" wx:if="{{movieData.length != 0}}">
+  <text class="left">{{title}}</text>
+  <!-- <navigator url="/pages/search/search">更多>></navigator> -->
+</view>
+<view class="big_list">
+  <view class="big_photo" wx:for="{{movieData}}" wx:key="index">
+    <navigator url="/pages/detail/detail?id={{item.id}}">
+      <image class="photo" src="{{item.images.small}}"></image>
+      <text class="name">{{item.title}}</text>
+    </navigator>
+  </view>
+</view>

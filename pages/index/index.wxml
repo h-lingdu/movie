@@ -1,0 +1,5 @@
+<view class="container">
+	<common movieData="{{hotData}}" title="正在热映"></common>
+	<common movieData="{{comingSoonData}}" title="即将上映"></common>
+	<common movieData="{{top250Data}}" title="Top250"></common>
+</view>

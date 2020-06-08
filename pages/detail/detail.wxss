@@ -1,0 +1,103 @@
+/* pages/detail/detail.wxss */
+.containe {
+  padding: 0 20rpx
+}
+
+.detailContent {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+  justify-content: space-between;
+}
+
+.detailContent .photo {
+  width: 350rpx;
+}
+
+.detailContent .detail {
+  display: flex;
+  width: 350rpx;
+  flex-direction: column;
+}
+
+.detail text {
+  font-size: 24rpx;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.pingfen {
+  color: #494949;
+  font-size: 26rpx;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.rating i-rate {
+  padding-bottom: 10rpx;
+}
+
+.summary_title {
+  color: #007722;
+  margin: 30rpx 0;
+}
+
+.review-rating {
+  padding-bottom: 10rpx;
+}
+
+.summary_content {
+  font-size: 24rpx;
+  text-indent: 48rpx;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.review_content {
+  margin-bottom: 10rpx;
+}
+
+.review {
+  display: flex;
+  /* width: 60%; */
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1rpx solid #eee;
+  padding: 20rpx 0;
+}
+
+.review .review_author_avatar {
+  width: 90rpx;
+}
+
+.review text {
+  padding-right: 20rpx;
+}
+
+.review_img {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.review_name {
+  color: #37a;
+  font-size: 24rpx;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.review_title {
+  color: #37a;
+  font-size: 26rpx;
+  font-family: Helvetica, Arial, sans-serif;
+  padding-bottom: 10rpx;
+}
+
+.review_summary {
+  color: #494949;
+  font-size: 26rpx;
+  text-indent: 52rpx;
+  font-family: Helvetica, Arial, sans-serif;
+}
